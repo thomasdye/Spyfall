@@ -9,21 +9,21 @@
 /* Begin PBXBuildFile section */
 		ED5338B824429DA60050C79C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5338B724429DA60050C79C /* AppDelegate.swift */; };
 		ED5338BA24429DA60050C79C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5338B924429DA60050C79C /* SceneDelegate.swift */; };
-		ED5338BC24429DA60050C79C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5338BB24429DA60050C79C /* ViewController.swift */; };
 		ED5338BF24429DA60050C79C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED5338BD24429DA60050C79C /* Main.storyboard */; };
 		ED5338C124429DA90050C79C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED5338C024429DA90050C79C /* Assets.xcassets */; };
 		ED5338C424429DA90050C79C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED5338C224429DA90050C79C /* LaunchScreen.storyboard */; };
+		ED5338CC24429FE00050C79C /* SpyfallViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5338CB24429FE00050C79C /* SpyfallViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		ED5338B424429DA60050C79C /* Spyfall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Spyfall.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED5338B724429DA60050C79C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ED5338B924429DA60050C79C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		ED5338BB24429DA60050C79C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		ED5338BE24429DA60050C79C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ED5338C024429DA90050C79C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ED5338C324429DA90050C79C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ED5338C524429DA90050C79C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED5338CB24429FE00050C79C /* SpyfallViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpyfallViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,13 +56,13 @@
 		ED5338B624429DA60050C79C /* Spyfall */ = {
 			isa = PBXGroup;
 			children = (
-				ED5338B724429DA60050C79C /* AppDelegate.swift */,
-				ED5338B924429DA60050C79C /* SceneDelegate.swift */,
-				ED5338BB24429DA60050C79C /* ViewController.swift */,
+				ED5338C524429DA90050C79C /* Info.plist */,
 				ED5338BD24429DA60050C79C /* Main.storyboard */,
+				ED5338CB24429FE00050C79C /* SpyfallViewController.swift */,
 				ED5338C024429DA90050C79C /* Assets.xcassets */,
 				ED5338C224429DA90050C79C /* LaunchScreen.storyboard */,
-				ED5338C524429DA90050C79C /* Info.plist */,
+				ED5338B724429DA60050C79C /* AppDelegate.swift */,
+				ED5338B924429DA60050C79C /* SceneDelegate.swift */,
 			);
 			path = Spyfall;
 			sourceTree = "<group>";
@@ -138,7 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ED5338BC24429DA60050C79C /* ViewController.swift in Sources */,
+				ED5338CC24429FE00050C79C /* SpyfallViewController.swift in Sources */,
 				ED5338B824429DA60050C79C /* AppDelegate.swift in Sources */,
 				ED5338BA24429DA60050C79C /* SceneDelegate.swift in Sources */,
 			);
